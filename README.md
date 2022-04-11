@@ -3,6 +3,7 @@
 
 - Node/NPM
 - Vue-cli 3.x
+- -Git
 
 ## Project setup
 ```
