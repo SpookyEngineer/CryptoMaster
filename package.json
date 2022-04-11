@@ -48,9 +48,5 @@
     "vue",
     "vue.js"
   ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JayeshLab/vue-crypto-dashboard.git"
-  }
+  "license": "MIT"  
 }
