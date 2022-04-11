@@ -1,0 +1,30 @@
+[
+  {
+    "cid": 1,
+    "symbol": "BTCUSDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "name": "Bitcoin"
+  },
+  {
+    "cid": 74,
+    "symbol": "DOGEBTC",
+    "base": "DOGE",
+    "quote": "BTC",
+    "name": "Dogecoin"
+  },
+  {
+    "cid": 1027,
+    "symbol": "ETHUSDT",
+    "base": "ETH",
+    "quote": "USDT",
+    "name": "Ethereum"
+  },
+  {
+    "cid": 52,
+    "symbol": "XRPUSDT",
+    "base": "XRP",
+    "quote": "USDT",
+    "name": "XRP"
+  }
+]
