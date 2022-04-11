@@ -10,7 +10,7 @@
 npm install
 ```
 
-### Runs project in localhost
+### Runs project in localhost:8080
 ```
 npm run serve
 ```
