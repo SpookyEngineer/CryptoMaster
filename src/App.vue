@@ -1,6 +1,6 @@
 <template>
 <div class="min-h-screen">
-  <div class="pb-56">
+  <div class="pb-72">
     <navBar></navBar>
         <LayoutPage></LayoutPage>
     <foot class="fixed bottom-0"></foot>
