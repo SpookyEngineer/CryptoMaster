@@ -1,13 +1,22 @@
 <template>
-    <div id="app">
+<div class="min-h-screen">
+  <div class="pb-56">
+    <navBar></navBar>
         <LayoutPage></LayoutPage>
-    </div>
+    <foot class="fixed bottom-0"></foot>
+  </div>
+</div>
 </template>
 <script>
   import LayoutPage from './layout/LayoutPage.vue'
+  import navBar from './components/navBar.vue'
+  import foot from './components/foot.vue'
+
   export default {
     components: {
-      LayoutPage
+      LayoutPage,
+      navBar,
+      foot
     }
   }
 </script>

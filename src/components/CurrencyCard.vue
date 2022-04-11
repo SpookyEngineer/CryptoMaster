@@ -1,25 +1,16 @@
 <template>
-    <div class="coin-box" @dblclick.stop="openDetails">
-        <div class="row no-gutters coin-info">
-            <div class="col-7">
-                <div class="font-weight-bold">{{info.name}}</div>
+    <div>
+        <div>
+            <div class="bg-gray-900 h-56 m-5 rounded-md flex justify-center items-center">
+                    <div>
+                        <img class="px-2 w-20 h-auto mr-5" :src="iconbase" alt="currency icon">
+                    </div>
                 <div class="row no-gutters mt-1">
-                    <div class="box-icon">
-                        <span :style="{ backgroundImage : 'url('+ iconbase +')' }"></span>
-                    </div>
                     <div class="col text-left">
-                        <div><b>{{info.base}}</b>/{{info.quote}}</div>
-                        <div class="coin-price" v-if="ticker.price">{{ticker.price || '' }}<span style="font-size: x-small; font-weight: 700; padding-left: 3px;">{{info.quote}}</span></div>
+                <div class="text-white">{{info.name}}</div>
+                        <div class="text-white"><b class="text-white">{{info.base}}</b>/{{info.quote}}</div>
+                        <div class="text-white" v-if="ticker.price">{{ticker.price || '' }}<span style="font-size: x-small; font-weight: 700; padding-left: 3px;">{{info.quote}}</span></div>
                     </div>
-                </div>
-            </div>
-            <div class="dd-container" :class="[{'show': showDropDown}]">
-                    <span role="button" class="menu-btn" @click.stop="onDropDown">
-                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
-                    </span>
-                <div class="dd-menu" v-if="showDropDown">
-                    <span class="dd-item" @click="openDetails">Open</span>
-                    <span class="dd-item" @click="removeCard">Delete</span>
                 </div>
             </div>
         </div>

@@ -1,9 +1,6 @@
 <template>
-    <div class="layout-container">
-        <header class="page-header bg-primary">
-            <span class="page-title">Select a currency</span>
-        </header>
-        <div class="page-container">
+    <div>
+        <div>
             <transition name="fade" mode="out-in">
                 <keep-alive include="dashboard">
                     <router-view/>
