@@ -13,7 +13,7 @@
                     </div>
                 </div>
             </div>
-            <div class="dd-container" :class="[{'show': showDropDown}]" v-click-outside="closeDropDown">
+            <div class="dd-container" :class="[{'show': showDropDown}]">
                     <span role="button" class="menu-btn" @click.stop="onDropDown">
                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                     </span>

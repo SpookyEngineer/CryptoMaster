@@ -7,13 +7,6 @@
     "name": "Bitcoin"
   },
   {
-    "cid": 74,
-    "symbol": "DOGEBTC",
-    "base": "DOGE",
-    "quote": "BTC",
-    "name": "Dogecoin"
-  },
-  {
     "cid": 1027,
     "symbol": "ETHUSDT",
     "base": "ETH",

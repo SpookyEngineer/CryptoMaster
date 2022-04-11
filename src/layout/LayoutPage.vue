@@ -1,7 +1,7 @@
 <template>
     <div class="layout-container">
         <header class="page-header bg-primary">
-            <span class="page-title">VUE CRYPTO DASHBOARD</span>
+            <span class="page-title">Select a currency</span>
         </header>
         <div class="page-container">
             <transition name="fade" mode="out-in">
