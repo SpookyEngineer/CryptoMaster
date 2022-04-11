@@ -11,12 +11,6 @@ const router = new Router({
       path: '/',
       name: 'dashboard',
       component: () => import('./views/Dashboard.vue')
-    },
-    {
-      path: '/view/:symbol',
-      name: 'infoview',
-      component: () => import('./views/InfoView.vue'),
-      props: true
     }
   ]
 })

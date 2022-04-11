@@ -50,10 +50,6 @@
         unSubscribeSymbol(this.info.symbol);
         this.$store.commit('REMOVE_COIN_PAIR', this.info.symbol)
       },
-      openDetails() {
-        this.showDropDown = false;
-        this.$router.push({name: 'infoview', params: { 'symbol': this.info.symbol }})
-      },
       closeDropDown() {
         this.showDropDown = false;
       }
