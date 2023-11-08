@@ -6,7 +6,7 @@
       >
         <div>
           <img
-            class="px-2 w-20 h-auto mr-5"
+            class="px-2 w-20 h-auto mr-5 rounded-full"
             :src="iconbase"
             alt="currency icon"
           />
