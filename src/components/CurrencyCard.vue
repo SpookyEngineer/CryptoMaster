@@ -2,7 +2,7 @@
   <div>
     <div>
       <div
-        class="bg-gray-900 h-56 m-5 rounded-md flex justify-center items-center"
+        class="bg-gray-900 h-56 m-5 rounded-md flex justify-center items-center relative"
       >
         <div>
           <img
@@ -27,6 +27,13 @@
             </div>
           </div>
         </div>
+        <button class="h-6 w-6 absolute top-4 right-4" @click="removeCard()">
+          <img
+            src="../images/close-button.svg"
+            alt="x button"
+            title="X Button"
+          />
+        </button>
       </div>
     </div>
   </div>
