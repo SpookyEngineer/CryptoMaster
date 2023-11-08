@@ -1,9 +1,9 @@
 <template>
   <div class="min-h-screen">
-    <div class="pb-72">
+    <div>
       <navBar></navBar>
       <LayoutPage></LayoutPage>
-      <foot class="fixed bottom-0"></foot>
+      <foot></foot>
     </div>
   </div>
 </template>
