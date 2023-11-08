@@ -1,26 +1,30 @@
 <template>
   <div class="min-h-screen">
-    <div class="flex mt-5">
+    <div class="flex flex-wrap justify-center items-center mt-5 px-2">
       <v-select
-        class="ml-5 h-full w-96 rounded-md bg-gray-200"
+        class="h-full w-96 rounded-md bg-gray-200 overflow-ellipsis"
         id="base"
         :options="currencyList[quote]['pairs']"
         :clearable="false"
         v-model="baseCurrency"
         placeholder="Select Token"
       ></v-select>
-      <button
-        class="ml-4 text-white focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700"
-        @click="addCoinPair"
+      <div
+        class="flex justify-center items-center ml-4 mt-3 md:mt-0 text-white text-sm"
       >
-        Add
-      </button>
-      <button
-        class="ml-4 text-white focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700"
-        @click="clear"
-      >
-        Reset
-      </button>
+        <button
+          class="focus:outline-none font-medium rounded-lg px-5 py-2.5 mr-2 bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700"
+          @click="addCoinPair"
+        >
+          Add
+        </button>
+        <button
+          class="focus:outline-none font-medium rounded-lg px-5 py-2.5 mr-2 bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700"
+          @click="clear"
+        >
+          Reset
+        </button>
+      </div>
     </div>
     <CryptoBoard></CryptoBoard>
   </div>
