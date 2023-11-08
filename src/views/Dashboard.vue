@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="min-h-screen">
     <div class="flex mt-5">
       <v-select
-        class="ml-5 w-64 rounded-md bg-gray-200"
+        class="ml-5 w-96 rounded-md bg-gray-200"
         id="base"
         :options="currencyList[quote]['pairs']"
         :clearable="false"
