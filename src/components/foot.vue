@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-screen p-4 sm:p-6 bg-gray-800">
+  <footer class="p-4 sm:p-6 bg-gray-800">
     <div class="md:flex md:justify-between">
       <div class="mb-6 md:mb-0">
         <a class="flex items-center">
