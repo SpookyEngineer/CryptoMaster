@@ -2,7 +2,7 @@
   <div>
     <div>
       <div
-        class="bg-gray-900 h-56 m-5 rounded-md flex justify-center items-center relative"
+        class="bg-gray-900 h-56 rounded-md flex justify-center items-center relative"
       >
         <div>
           <img
