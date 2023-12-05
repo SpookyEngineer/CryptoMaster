@@ -1,8 +1,8 @@
 {
-  "name": "vue-crypto-dashboard",
+  "name": "crypto-master",
   "version": "1.1.0",
   "description": "Vue Cryptocurrency Dashboard",
-  "author": "JayeshLab <helloiamjayesh@gmail.com>",
+  "author": "GabrielDevSpooky",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -31,9 +31,6 @@
     "vue-template-compiler": "^2.6.11",
     "webpack": "^5.89.0"
   },
-  "bugs": {
-    "url": "https://github.com/JayeshLab/vue-crypto-dashboard/issues"
-  },
   "keywords": [
     "crypto",
     "cryptocurrency",
@@ -43,6 +40,5 @@
     "realtime price",
     "vue",
     "vue.js"
-  ],
-  "license": "MIT"
+  ]
 }
